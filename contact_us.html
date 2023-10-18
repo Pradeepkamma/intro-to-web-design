@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us </title>
+</head>
+<body>
+
+    <a href="index.html">Home</a>
+    <a href="about_us.html">About us</a>
+    <a href="contact_us.html">Contact us</a>
+    
+    <h1 style="color: darkred;">contact us</h1>
+    <hr></hr>
+    <style>
+        table,tr,th,td{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+    <h2>Locations</h2>
+    <table>
+        <tr>
+            <th>Logo</th>
+            <th>Location></th>
+            <th>Opening Hours</th>
+            <th>Email Address</th>
+            <th>Phone Number</th>
+        </tr>
+        <tr>
+            <td>
+                <img src="" alt="Logo.1"/>
+            </td>
+            <td>hyd</td>
+            <td>9AM-5PM</td>
+            <td>kammapradeep@gmail.com</td>
+            <td>12345678</td>
+        </tr>
+        <tr>
+            <td>
+                <img src="" alt="Logo.2"/>
+            </td>
+            <td>bang</td>
+            <td>9AM-5PM</td>
+            <td>asdghkkjhgf@gmail.com</td>
+            <td>53656454</td>
+        </tr>
+        <tr>
+            <td>
+                <img src="" alt="Logo.3"/>
+            </td>
+            <td>tel</td>
+            <td>9AM-5PM</td>
+            <td>dgfhgjhghfd@gmai.com</td>
+            <td>123456775645</td>
+        </tr>
+    </table>
+
+
+
+
+
+    <h2>general Inquiries</h2>
+    <form action="confirmation.html">
+        <label for="fullname">Name:  *</label><br/>
+        <input required type="text" id="fullname" name="fullname"/>
+        <br><br>
+        <label for="emailaddres">Email Address:  *</label><br>
+        <input required type="email" id="email" name="emailaddres"/><br><br>
+        <label>Are you employed?</label><br><br>
+        <input type="radio" value="Y" name="employed"/>Yes
+        <input type="radio" value="N" name="employed"/>No<br><br>
+        <label for="inquiry">State your inquiry:  *</label>
+        <textarea cols="50" rows="10" maxlength="150" id="inquiry"></textarea>
+        <input type="submit"/><br><br/>
+
+    </form>
+
+    
+</body>
+</html>
